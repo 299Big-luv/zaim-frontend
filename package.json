@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "prepare": "nuxt prepare",
     "cleanup": "nuxt cleanup",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "nuxt": "^3.12.4",
+    "nuxt-sanctum-auth": "^0.4.10",
     "vue": "latest"
   },
   "devDependencies": {
